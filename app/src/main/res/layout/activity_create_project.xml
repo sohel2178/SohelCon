@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_project"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_image_drawable"
+    tools:context="net.optimusbs.sohelcon.CreateProjectActivity">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_width"
+        android:text="@string/create_new_project"
+        android:gravity="center"
+        android:id="@+id/create_project_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/default_margin">
+    </TextView>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_project_title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@color/edit_text_color"
+                android:textColor="@color/text_color_white"
+                android:alpha="0.6"
+                android:hint="@string/project_name"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_project_name"
+                android:layout_marginBottom="@dimen/default_margin"/>
+
+            <EditText
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@color/edit_text_color"
+                android:textColor="@color/text_color_white"
+                android:layout_below="@+id/et_project_name"
+                android:alpha="0.6"
+                android:hint="@string/company_address"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_company_address"
+                android:layout_marginBottom="@dimen/default_margin"/>
+
+            <EditText
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@color/edit_text_color"
+                android:textColor="@color/text_color_white"
+                android:layout_below="@+id/et_company_address"
+                android:alpha="0.6"
+                android:hint="@string/site_location"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_site_location"
+                android:layout_marginBottom="@dimen/default_margin"/>
+
+            <Button
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                style="@style/CustomButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/button_create"
+                android:background="@drawable/button_selector"
+                android:layout_below="@+id/et_site_location"
+                android:id="@+id/button_create_project"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

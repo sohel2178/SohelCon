@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register_image"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.StoreReceived">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Material Received Form"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:id="@+id/store_received_date"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/received_date"
+                android:inputType="date" />
+
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:id="@+id/store_received_particular"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/particular"
+                android:inputType="text" />
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:id="@+id/store_received_received_from"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/received_from"
+                android:inputType="text" />
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:id="@+id/store_received_challan_no"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/challan_no"
+                android:inputType="text" />
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:id="@+id/store_received_mrr_no"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/mrr_no"
+                android:inputType="text" />
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:id="@+id/store_received_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:alpha=".6"
+                android:hint="@string/quantity_2"
+                android:inputType="numberDecimal" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/store_received_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center"
+        android:text="@string/button_add"
+        android:textColor="@color/text_color_white" />
+
+</LinearLayout>

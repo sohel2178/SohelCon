@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_register_image"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.StoreConsumed">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Material Consumption Form"
+        android:textAllCaps="true"
+        android:id="@+id/title"
+        android:textSize="20sp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/consumed_date"
+                android:inputType="date"
+                android:id="@+id/store_consumed_date"/>
+
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/particular"
+                android:inputType="text"
+                android:id="@+id/store_consumed_particular"/>
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/issue_to"
+                android:inputType="text"
+                android:id="@+id/store_consumed_issue_to"/>
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/where_used"
+                android:inputType="text"
+                android:id="@+id/store_consumed_where_used"/>
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/quantity_2"
+                android:inputType="numberDecimal"
+                android:id="@+id/store_consumed_quantity"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/store_consumed_add"
+        android:text="@string/button_add"
+        android:layout_gravity="center"
+        android:textColor="@color/text_color_white"
+        android:background="@drawable/button_selector"/>
+
+
+
+</LinearLayout>
+
+
+

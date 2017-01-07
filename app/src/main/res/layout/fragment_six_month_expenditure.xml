@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.SixMonthExpenditure">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/light_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="@dimen/default_margin"
+                android:id="@+id/btn_seek_minus"
+                android:background="@drawable/control_button_selector"
+                android:text="@string/control_icon_left"
+                android:textColor="@color/text_color_white"
+                android:textStyle="bold"
+                />
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:padding="@dimen/default_margin"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btn_seek_back"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/control_button_selector"
+                android:text="@string/control_icon_fast_backward"
+                android:textColor="@color/text_color_white"
+                android:textStyle="bold"
+                />
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btn_seek_fore"
+                android:layout_marginStart="10dp"
+                android:padding="@dimen/default_margin"
+                android:background="@drawable/control_button_selector"
+                android:text="@string/control_icon_fast_forward"
+                android:textColor="@color/text_color_white"
+                android:textStyle="bold"
+                />
+
+
+            <com.joanzapata.iconify.widget.IconButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btn_seek_plus"
+                android:layout_marginStart="10dp"
+                android:padding="@dimen/default_margin"
+                android:background="@drawable/control_button_selector"
+                android:text="@string/control_icon_right"
+                android:textColor="@color/text_color_white"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthly_chart_container">
+    </FrameLayout>
+
+
+</LinearLayout>

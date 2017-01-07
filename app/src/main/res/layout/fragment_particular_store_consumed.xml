@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.ParticularStoreConsumedFragment">
+
+    <include layout="@layout/store_list_header"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/rv_particular_store_consumed">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_divider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/field_height_small"
+            android:layout_weight="3.5"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:paddingStart="@dimen/default_padding_left"
+            android:text="@string/total"
+            android:id="@+id/total"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/field_height_small"
+            android:layout_weight="2"
+            android:gravity="end|center_vertical"
+            android:textStyle="bold"
+            android:paddingStart="@dimen/default_padding_left"
+            android:id="@+id/particular_store_consumed_total"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_divider"/>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        android:layout_margin="@dimen/default_margin"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/store_consumption_line_chart_container"
+            android:padding="@dimen/default_padding"
+            >
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

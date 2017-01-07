@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Activity.UpdateActivityFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:id="@+id/title"
+        android:layout_marginBottom="@dimen/default_margin"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:layout_weight="1"
+                    android:text="@string/start_date"
+                    android:textSize="@dimen/text_size_field"
+                    android:id="@+id/start_date"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:paddingLeft="@dimen/default_padding_left"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:paddingLeft="@dimen/default_padding_left"
+                    android:textSize="@dimen/text_size_field"
+                    android:alpha=".6"
+                    android:focusable="false"
+                    android:layout_weight="2"
+                    android:id="@+id/update_activity_start_date"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:layout_weight="1"
+                    android:text="@string/finished_date"
+                    android:textSize="@dimen/text_size_field"
+                    android:id="@+id/finished_date"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:paddingLeft="@dimen/default_padding_left"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:paddingLeft="@dimen/default_padding_left"
+                    android:textSize="@dimen/text_size_field"
+                    android:alpha=".6"
+                    android:focusable="false"
+                    android:layout_weight="2"
+                    android:id="@+id/update_activity_finished_date"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:layout_weight="1"
+                    android:text="@string/activity_name"
+                    android:textSize="@dimen/text_size_field"
+                    android:id="@+id/activity_name"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:paddingLeft="@dimen/default_padding_left"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:paddingLeft="@dimen/default_padding_left"
+                    android:textSize="@dimen/text_size_field"
+                    android:alpha=".6"
+                    android:layout_weight="2"
+                    android:id="@+id/update_activity_activity_name"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:layout_weight="1"
+                    android:text="@string/volume_of_works"
+                    android:textSize="@dimen/text_size_field"
+                    android:id="@+id/vol_of_works"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:paddingLeft="@dimen/default_padding_left"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:paddingLeft="@dimen/default_padding_left"
+                    android:textSize="@dimen/text_size_field"
+                    android:alpha=".6"
+                    android:layout_weight="2"
+                    android:id="@+id/update_activity_volume_of_works"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:layout_weight="1"
+                    android:text="@string/unit_rate"
+                    android:id="@+id/unit_rate"
+                    android:textSize="@dimen/text_size_field"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:paddingLeft="@dimen/default_padding_left"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/field_height_small"
+                    android:paddingLeft="@dimen/default_padding_left"
+                    android:textSize="@dimen/text_size_field"
+                    android:alpha=".6"
+                    android:layout_weight="2"
+                    android:id="@+id/update_activity_unit_rate"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/text_color_white"
+                android:background="@drawable/button_selector"
+                android:id="@+id/update_activity_ok"
+                android:text="@string/dialog_ok"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

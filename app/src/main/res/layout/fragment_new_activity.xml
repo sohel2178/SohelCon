@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.NewActivityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/activity_main_container"
+        android:layout_above="@+id/toolbar_activity_control">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbar_activity_control"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:padding="3dp"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:id="@+id/activity_home_container"
+                android:background="@drawable/button_selector"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/activity_home"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_home"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/home"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="3dp"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:id="@+id/addactivity_container"
+                android:orientation="vertical"
+                android:background="@drawable/button_selector"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/activity_plus"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_circle_plus"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/add_activity"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="3dp"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:id="@+id/chart_container"
+                android:background="@drawable/button_selector" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/activity_gantt_chart"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_bar_chart"
+                        android:textSize="28sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/gantt_chart"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <!-- Put view you like -->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.optimusbs.sohelcon.DetailDialogFragmentLongPress.ShowDetailCreditDialog">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textColor="@color/text_color_white"
+        android:id="@+id/title_dialog"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/scroll"
+        android:layout_below="@+id/title_dialog">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:layout_gravity="start"
+                    android:textColor="@color/black"
+                    android:id="@+id/date"
+                    android:text="@string/date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:layout_gravity="end"
+                    android:id="@+id/show_credit_dialog_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:id="@+id/description"
+                    android:text="@string/description"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/show_credit_dialog_description"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:id="@+id/head"
+                    android:text="@string/head_2"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/show_credit_dialog_head"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:id="@+id/amount"
+                    android:text="@string/amount"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/show_credit_dialog_amount"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--android:paddingLeft="100dp"
+    android:paddingRight="100dp"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/scroll"
+        android:padding="10dp"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/show_credit_dialog_ok"
+            android:src="@drawable/ok"
+            android:background="@drawable/image_button_back"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

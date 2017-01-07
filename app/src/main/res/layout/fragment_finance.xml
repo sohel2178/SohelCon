@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/text_color_white"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.FinanceFragment">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/finance_main_container"
+        android:layout_above="@+id/toolbar_finance_control">
+
+        <LinearLayout
+            android:id="@+id/finance_layout_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <include layout="@layout/finance_list_header"
+                />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/finace_rv"
+            android:layout_margin="@dimen/side_margin"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

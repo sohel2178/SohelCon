@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.DailyTransaction">
+
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/top_container"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Transaction On "
+                android:textSize="18sp"
+                android:textColor="@color/text_color_white"
+                android:gravity="center"
+                android:id="@+id/title"/>
+
+            <net.optimusbs.sohelcon.CustomView.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color_white"
+                android:gravity="center"
+                android:id="@+id/tvDate_sohel"/>
+
+        </LinearLayout>
+
+
+
+        <com.joanzapata.iconify.widget.IconTextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:text="@string/icon_calendar"
+            android:textColor="@color/text_color_white"
+            android:textSize="28sp"
+            android:padding="2dp"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/calendar"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/header"
+        android:layout_below="@+id/top_container">
+
+        <include layout="@layout/finance_list_header"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/total_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvDailyTransaction">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <LinearLayout
+
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_white"
+        android:id="@+id/total_container"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:text="Total"
+            android:id="@+id/totalText"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/debitValue"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/button_open"
+                android:id="@+id/creditValue"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.StoreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_width"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/store_list_header">
+
+        <include layout="@layout/store_list_header"
+            />
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_store"
+        android:layout_below="@+id/store_list_header">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+    <!-- Transform view -->
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_store_control"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:id="@+id/store_plus"
+                android:textColor="@color/text_color_white"
+                android:text="@string/icon_circle_plus"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/button_selector"
+                />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_marginStart="@dimen/icon_margin"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:id="@+id/store_minus"
+                android:textColor="@color/text_color_white"
+                android:text="@string/icon_circle_nimus"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/button_selector"
+
+                />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_marginStart="@dimen/icon_margin"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:id="@+id/store_summery"
+                android:textColor="@color/text_color_white"
+                android:text="@string/icon_summery"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/button_selector"
+                android:visibility="gone"
+
+                />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_marginStart="@dimen/icon_margin"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:id="@+id/store_graph"
+                android:textColor="@color/text_color_white"
+                android:text="@string/icon_bar_chart"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:background="@drawable/button_selector"
+                android:visibility="gone"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+        &lt;!&ndash; Put view you like &ndash;&gt;
+    </android.support.v7.widget.Toolbar>-->
+
+
+
+
+
+</RelativeLayout>

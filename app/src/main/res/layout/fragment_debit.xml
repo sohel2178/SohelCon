@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_register_image"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.DebitFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Debit Form"
+        android:textAllCaps="true"
+        android:id="@+id/title"
+        android:textSize="20sp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/default_margin"
+            android:paddingRight="@dimen/default_margin"
+            android:paddingBottom="@dimen/default_margin"
+            >
+
+
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:textColor="@color/edit_text_text_color"
+                android:textColorHint="@color/hint_color"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/received_date"
+                android:inputType="date"
+                android:focusable="false"
+                android:id="@+id/debit_trasaction_date"/>
+
+
+            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+                android:textColor="@color/edit_text_text_color"
+                android:textColorHint="@color/hint_color"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/description"
+                android:inputType="text"
+                android:id="@+id/debit_description"/>
+
+            <net.optimusbs.sohelcon.CustomView.MyEditText
+                android:textColor="@color/edit_text_text_color"
+                android:textColorHint="@color/hint_color"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:alpha=".6"
+                android:hint="@string/amount"
+                android:inputType="numberDecimal"
+                android:id="@+id/debit_amount"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/debit_add"
+        android:layout_gravity="center"
+        android:text="@string/button_add"
+        android:textColor="@color/text_color_white"
+        android:background="@drawable/button_selector"/>
+
+
+
+
+
+</LinearLayout>

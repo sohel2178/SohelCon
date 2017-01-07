@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register_image"
+    tools:context="net.optimusbs.sohelcon.Navigation.CreateProjectFragment">
+
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@color/icon_background_color"
+                android:layout_alignParentTop="true"
+                android:id="@+id/header"
+                android:orientation="horizontal"
+                >
+
+                <com.joanzapata.iconify.widget.IconTextView
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:text="@string/icon_info_circle"
+                    android:layout_gravity="center"
+                    android:textColor="#188ae2"
+                    android:textSize="30sp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/default_padding"
+                    android:text="@string/project_form"
+                    android:textColor="@color/text_color_white"
+                    android:id="@+id/project_form_title"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingStart="@dimen/padding_left"
+                android:background="@drawable/my_edit_text_back"
+                android:textColor="@color/edit_text_text_color"
+                android:layout_below="@+id/header"
+                android:hint="@string/project_name"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_create_project_name"
+                android:layout_marginBottom="@dimen/default_margin"
+                />
+
+            <EditText
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@drawable/my_edit_text_back"
+                android:textColor="@color/edit_text_text_color"
+                android:layout_below="@+id/et_create_project_name"
+                android:hint="@string/description"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_create_project_description"
+                android:layout_marginBottom="@dimen/default_margin"
+                />
+
+            <EditText
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@drawable/my_edit_text_back"
+                android:textColor="@color/edit_text_text_color"
+                android:layout_below="@+id/et_create_project_description"
+                android:hint="@string/site_location"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_create_project_location"
+                android:layout_marginBottom="@dimen/default_margin"
+                />
+
+            <EditText
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@drawable/my_edit_text_back"
+                android:textColor="@color/edit_text_text_color"
+                android:layout_below="@+id/et_create_project_location"
+                android:hint="@string/start_date"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_create_project_start_date"
+                android:focusable="false"
+                android:layout_marginBottom="@dimen/default_margin"
+                />
+
+            <EditText
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_height"
+                android:paddingLeft="@dimen/padding_left"
+                android:background="@drawable/my_edit_text_back"
+                android:textColor="@color/edit_text_text_color"
+                android:layout_below="@+id/et_create_project_start_date"
+                android:hint="@string/completion_date"
+                android:textColorHint="@color/hint_color"
+                android:id="@+id/et_create_project_completion_date"
+                android:focusable="false"
+                android:layout_marginBottom="@dimen/default_margin"
+                />
+
+
+
+            <Button
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create"
+                android:background="@drawable/button_selector"
+                android:layout_below="@+id/et_create_project_completion_date"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/text_color_white"
+                android:textAllCaps="false"
+                android:id="@+id/button_create_project_create"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.optimusbs.sohelcon.DetailDialogFragmentLongPress.ActivityDetailDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/title"
+        android:id="@+id/scroll"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_name"
+                    android:text="@string/activity_name"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:id="@+id/activity_dialog_activity_name"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/start_date"
+                    android:textColor="@color/black"
+                    android:text="@string/start_date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_start_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/finished_date"
+                    android:textColor="@color/black"
+                    android:text="@string/finished_date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_finished_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/vol_of_works"
+                    android:textColor="@color/black"
+                    android:text="@string/volume_of_works"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_volume_of_works"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/unit_rate"
+                    android:textColor="@color/black"
+                    android:text="@string/unit_rate"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_unit_rate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/work_done"
+                    android:textColor="@color/black"
+                    android:text="@string/volume_of_workdone"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_volume_of_workdone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/last_modified"
+                    android:textColor="@color/black"
+                    android:text="@string/last_modified"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:paddingStart="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/activity_dialog_last_modified"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+       android:layout_below="@+id/scroll"
+        android:id="@+id/button_container"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_dialog_ok"
+            android:src="@drawable/ok"
+            android:background="@drawable/image_button_back"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

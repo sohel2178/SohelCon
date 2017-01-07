@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Constrution Manager</string>
+    <string name="shared_file_provider">com.nguyenhoanglam.imagepicker.provider.sohelcon</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO: Button Text -->
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="facebook">Facebook Login</string>
+    <string name="button_create">Create</string>
+
+    <!-- TODO: Register Activity  -->
+
+    <string name="regiter_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company Name</string>
+    <string name="designation">Designation</string>
+    <string name="create_new_project">Create New Project</string>
+    <string name="project_name">Project Name</string>
+    <string name="company_address">Company Address</string>
+    <string name="site_location">Site Location</string>
+    <string name="all_project">Your Projects List</string>
+    <string name="button_update">UPT</string>
+    <string name="button_delete">DEL</string>
+    <string name="button_open">OPEN</string>
+    <string name="button_add_project">Add Project</string>
+    <string name="action">Action</string>
+    <string name="update">Update</string>
+
+
+    <string name="icon_finance1">{fa-usd}</string>
+    <string name="icon_activity">{fa-tasks}</string>
+    <string name="icon_store">{fa-book}</string>
+
+    <string name="icon_tick">{fa-check}</string>
+    <string name="icon_cross">{fa-times}</string>
+
+    <!--//Finance Icon-->
+    <string name="icon_circle_plus">{fa-plus-circle}</string>
+    <string name="icon_circle_nimus">{fa-minus-circle}</string>
+    <string name="icon_summery">{fa-compress}</string>
+    <string name="icon_bar_chart">{fa-bar-chart}</string>
+
+
+    <string name="icon_daily_transaction">{fa-calendar-check-o}</string>
+    <string name="icon_frequency">{fa-signal}</string>
+
+
+    <string name="icon_delete">{fa-trash}</string>
+    <string name="icon_home">{fa-home}</string>
+    <string name="icon_list">{fa-list}</string>
+    <string name="icon_log_out">{fa-power-off}</string>
+    <string name="icon_project">{fa-building}</string>
+    <string name="icon_info_circle">{fa-info-circle}</string>
+    <string name="icon_location">{fa-map}</string>
+    <string name="icon_update">{fa-pencil}</string>
+    <string name="icon_open">{fa-eye}</string>
+    <string name="icon_work_done">{fa-check}</string>
+    <string name="icon_calendar">{fa-calendar}</string>
+    <string name="icon_sign_out">{fa-sign-out}</string>
+    <string name="icon_action">{fa-flag} ACTION</string>
+    <string name="icon_finance">{fa-money}    FINANCE</string>
+    <string name="icon_debit">{fa-minus-square}   DEBIT FORM</string>
+    <string name="icon_material_received_form">{fa-minus-square} MATERIAL RECEIVED FORM</string>
+    <string name="icon_material_consumed_form">{fa-plus-square} MATERIAL CONSUMED FORM</string>
+    <string name="icon_credit">{fa-plus-square}   CREDIT FORM</string>
+    <string name="icon_plus">{fa-plus}</string>
+    <string name="icon_minus">{fa-minus}</string>
+    <string name="icon_site_location">{fa-map-marker}</string>
+    <string name="icon_project_name">{fa-bars} NAME</string>
+    <string name="received_date">Received Date</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="button_add">Add</string>
+    <string name="expenditure_date">Expenditure Date</string>
+    <string name="head">Expenditure Head</string>
+    <string name="date">Date</string>
+    <string name="no">NO</string>
+    <string name="confirm">Confirm</string>
+    <string name="head_2">Head</string>
+    <string name="store">Store</string>
+    <string name="particular">Particular</string>
+    <string name="received_from">Received From</string>
+    <string name="quantity">Quantity in cft</string>
+    <string name="mrr_no">MRR NO</string>
+    <string name="challan_no">Challan NO</string>
+    <string name="quantity_2">Quantity</string>
+    <string name="issue_to">Issue To</string>
+    <string name="where_used">Where Used?</string>
+    <string name="consumed_date">Consumed Date</string>
+    <string name="activities">Activities</string>
+    <string name="unit_rate">Unit Rate</string>
+    <string name="volume_of_works">Volume of Works</string>
+    <string name="activity_name">Activity Name</string>
+    <string name="finished_date">Finished Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="volume_of_workdone">Work Done</string>
+    <string name="last_modified">Last Modified</string>
+    <string name="transaction">Transaction</string>
+    <string name="item">Item</string>
+    <string name="received">Received</string>
+    <string name="consumed">Consumed</string>
+    <string name="balance">Balance</string>
+    <string name="debit_summery">Debit Summery</string>
+    <string name="credit_summery">Credit Summery</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="total">Total</string>
+
+
+    <string name="control_icon_left">{fa-chevron-left}</string>
+    <string name="control_icon_right">{fa-chevron-right}</string>
+    <string name="control_icon_fast_forward">{fa-fast-forward}</string>
+    <string name="control_icon_fast_backward">{fa-fast-backward}</string>
+
+    <string name="icon_bar_chart_received">{fa-bar-chart} Received</string>
+    <string name="icon_bar_chart_consumed">{fa-bar-chart} Consumed</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="gantt_chart">Gantt Chart</string>
+    <string name="summery">Summery</string>
+    <string name="add_child">Add Child</string>
+    <string name="select_access">Select Access</string>
+    <string name="show_child">Show Child</string>
+    <string name="log_out">Log Out</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="user_name_or_email">User Name Or Email</string>
+    <string name="co_ordinator">Co-ordinator</string>
+    <string name="assign">Assign</string>
+    <string name="project_manager">Project Manager</string>
+    <string name="days_left">Days Left</string>
+    <string name="completed">Completed</string>
+    <string name="completion_date">Completion Date</string>
+    <string name="create_co_ordinator">Create Co-ordinator</string>
+    <string name="project_form">Project Form</string>
+    <string name="create">Create</string>
+    <string name="access">Access</string>
+    <string name="home">Home</string>
+    <string name="Manager">manager</string>
+    <string name="financial_progress">Financial Progress</string>
+    <string name="physical_progress">Physical Progress</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="credit">Credit</string>
+    <string name="debit">Debit</string>
+    <string name="expediture_head">Head Exp.</string>
+    <string name="expediture_month">Monthly Exp.</string>
+    <string name="daily_transaction">D. Transact</string>
+    <string name="frequency">Exp. Freq.</string>
+    <string name="graph">Graph</string>
+    <string name="finance">Finance</string>
+    <string name="consumed_details">Consumption Details</string>
+    <string name="received_details">Received Details</string>
+
+
+</resources>

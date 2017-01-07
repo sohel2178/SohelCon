@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="net.optimusbs.sohelcon.DialogFragments.DebitConfirmDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/scroll"
+        android:layout_below="@+id/title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/date"
+                    android:textColor="@color/black"
+                    android:text="@string/date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:id="@+id/debit_dialog_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/description"
+                    android:textColor="@color/black"
+                    android:text="@string/description"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/debit_dialog_description"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/amount"
+                    android:textColor="@color/black"
+                    android:text="@string/amount"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/debit_dialog_amount"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/debit_dialog_no"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/cancel"
+            android:background="@drawable/image_button_back"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/debit_dialog_confirm"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ok"
+            android:background="@drawable/image_button_back"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

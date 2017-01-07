@@ -1,0 +1,299 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_white"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.NewFinanceFragment">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/finance_main_container"
+        android:layout_above="@+id/toolbar_finance_control">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbar_finance_control"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/home_container"
+                android:background="@drawable/button_selector"
+                android:visibility="gone"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_home"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/home"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/plus_container"
+                android:background="@drawable/button_selector">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/finance_plus"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_circle_plus"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/credit"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/minus_container"
+                android:background="@drawable/button_selector">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/finance_minus"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_circle_nimus"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/debit"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/dailytransactionContainer"
+                android:background="@drawable/button_selector"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/daily_trasaction"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_daily_transaction"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/daily_transaction"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/frequencyContainer"
+                android:background="@drawable/button_selector"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/tv_frequency"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_frequency"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/frequency"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/head_expenditure_container"
+                android:visibility="gone"
+                android:background="@drawable/button_selector">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/finance_sum"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_summery"
+                        android:textSize="28sp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/expediture_head"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:id="@+id/month_exp_container"
+                android:visibility="gone"
+                android:background="@drawable/button_selector">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <com.joanzapata.iconify.widget.IconTextView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/finance_six_month_expenditure"
+                        android:textColor="@color/text_color_white"
+                        android:text="@string/icon_bar_chart"
+                        android:textSize="28dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/expediture_month"
+                        android:textColor="@color/text_color_white"
+                        android:textSize="8sp"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!-- Put view you like -->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.optimusbs.sohelcon.DialogFragments.UserListDialogFragment">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_width"
+        android:id="@+id/user_dialog_title"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:gravity="center"
+        android:text="Work Done"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/radioRecycler"
+        android:layout_below="@+id/user_dialog_title">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/scroll"
+        android:layout_below="@+id/user_dialog_title">
+
+        <RadioGroup
+            android:padding="@dimen/default_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_dialog_radio_group"
+            android:layout_below="@+id/user_dialog_title">
+
+        </RadioGroup>
+
+    </ScrollView>-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/radioRecycler">
+
+        <ImageButton
+            android:background="@drawable/image_button_back"
+            android:src="@drawable/cancel"
+            android:layout_alignParentStart="true"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_assign_child_no"/>
+        <ImageButton
+            android:background="@drawable/image_button_back"
+            android:layout_alignParentEnd="true"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_assign_child"
+            android:src="@drawable/ok"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

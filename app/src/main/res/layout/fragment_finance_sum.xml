@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.FinanceSum">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/debit_summery"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/linear_layout_width"
+            android:layout_weight="1"
+            android:background="@color/another_color"
+            android:text="@string/bar_chart"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            android:layout_marginRight="1dp"/>
+        <TextView
+            android:id="@+id/credit_summery"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/linear_layout_width"
+            android:layout_weight="1"
+            android:background="@color/another_color"
+            android:text="@string/pie_chart"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="2.5dp"
+            android:background="@color/button_open"
+            android:layout_weight="1"
+            android:id="@+id/debit_indicator"
+            android:layout_marginRight="1dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="2.5dp"
+            android:background="@color/button_open"
+            android:layout_weight="1"
+            android:id="@+id/credit_indicator"
+            android:layout_marginLeft="1dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/debit_credit_container">
+
+    </FrameLayout>
+
+</LinearLayout>

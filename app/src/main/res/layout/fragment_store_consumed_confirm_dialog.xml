@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="net.optimusbs.sohelcon.DialogFragments.StoreConsumedConfirmDialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/title"
+        android:id="@+id/scroll"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/date"
+                    android:textColor="@color/black"
+                    android:text="@string/date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:id="@+id/store_consumed_dialog_date"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/particular"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:text="@string/particular"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/store_consumed_dialog_particular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/issue_to"
+                    android:textColor="@color/black"
+                    android:text="@string/issue_to"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/store_consumed_dialog_issue_to"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/where_used"
+                    android:textColor="@color/black"
+                    android:text="@string/where_used"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/store_consumed_dialog_where_used"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/quantity"
+                    android:textColor="@color/black"
+                    android:text="@string/quantity_2"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:id="@+id/store_consumed_dialog_quantity"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll">
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/store_consumed_dialog_no"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/cancel"
+            android:background="@drawable/image_button_back"
+            />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/store_consumed_dialog_confirm"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ok"
+            android:background="@drawable/image_button_back"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

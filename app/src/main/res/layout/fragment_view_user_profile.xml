@@ -1,0 +1,288 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register_image"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.Navigation.ViewUserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/userdetails_back">
+
+        <TextView
+            android:id="@+id/tv_companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/company_name"
+            android:textAllCaps="true"
+            android:textColor="@color/text_color_white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_companyName"
+            android:layout_centerHorizontal="true"
+            android:text="@string/company_address"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/placeholder" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:layout_toRightOf="@+id/profile_pic"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/designation"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textColor="@color/text_color_white"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/icon_background_color"
+            android:orientation="horizontal">
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/icon_info_circle"
+                android:textColor="#188ae2"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/form_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_padding"
+                android:text="@string/registration_form"
+                android:textColor="@color/text_color_white" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title">
+
+            <LinearLayout
+                android:id="@+id/mail_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/email"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:padding="4dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/phone_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mail_container"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/phone_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="Phone"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:padding="4dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_container"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/address_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="@string/address"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:padding="4dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- <com.mann_it.civilconstructionmanagement.CustomView.MyEditText
+                 android:layout_gravity="start"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/edit_text_height"
+                 android:paddingLeft="@dimen/padding_left"
+                 android:background="@drawable/my_edit_text_back"
+                 android:textColor="@color/edit_text_text_color"
+                 android:layout_alignParentTop="true"
+                 android:hint="@string/email"
+                 android:textColorHint="@color/hint_color"
+                 android:id="@+id/et_user_email"
+                 android:inputType="textEmailAddress"
+                 android:layout_marginBottom="@dimen/default_margin"
+                 />
+
+             <com.mann_it.civilconstructionmanagement.CustomView.MyEditText
+                 android:layout_gravity="start"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/edit_text_height"
+                 android:paddingLeft="@dimen/padding_left"
+                 android:background="@drawable/my_edit_text_back"
+                 android:textColor="@color/edit_text_text_color"
+                 android:layout_below="@+id/et_user_email"
+                 android:hint="@string/phone_number"
+                 android:textColorHint="@color/hint_color"
+                 android:id="@+id/et_phone_no"
+                 android:inputType="phone"
+                 android:layout_marginBottom="@dimen/default_margin"
+                 />
+
+             <com.mann_it.civilconstructionmanagement.CustomView.MyEditText
+                 android:layout_gravity="start"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/edit_text_height"
+                 android:paddingLeft="@dimen/padding_left"
+                 android:background="@drawable/my_edit_text_back"
+                 android:textColor="@color/edit_text_text_color"
+                 android:layout_below="@+id/et_phone_no"
+                 android:hint="@string/address"
+                 android:textColorHint="@color/hint_color"
+                 android:id="@+id/et_user_address"
+                 android:layout_marginBottom="@dimen/default_margin"
+                 />
+
+             <com.mann_it.civilconstructionmanagement.CustomView.MyEditText
+                 android:layout_gravity="start"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/edit_text_height"
+                 android:paddingLeft="@dimen/padding_left"
+                 android:background="@drawable/my_edit_text_back"
+                 android:textColor="@color/edit_text_text_color"
+                 android:layout_below="@+id/et_user_address"
+                 android:hint="@string/designation"
+                 android:textColorHint="@color/hint_color"
+                 android:id="@+id/et_designation"
+                 android:layout_marginBottom="@dimen/default_margin"
+                 android:visibility="gone"
+                 />-->
+
+
+            <!-- <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/linear_layout_width"
+                 android:layout_below="@+id/address_container">
+
+                 <Button
+                     android:layout_marginTop="@dimen/default_margin"
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:text="@string/update"
+                     android:background="@color/button_open"
+                     android:layout_alignParentEnd="true"
+                     android:textColor="@color/text_color_white"
+                     android:textAllCaps="false"
+                     android:id="@+id/button_update_user"
+                     />
+
+             </RelativeLayout>-->
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.optimusbs.sohelcon.DialogFragments.WorkDoneDialogFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_width"
+        android:id="@+id/workdone_title"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/text_color_white"
+        android:text="Work Done"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav_drawer_divider"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/date"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:text="@string/date"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:focusable="false"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/my_text_size"
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:id="@+id/work_done_date"/>
+
+                <com.joanzapata.iconify.widget.IconButton
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/icon_calendar"
+                    android:backgroundTint="@color/another_color"
+                    android:textColor="@color/text_color_white"
+                    android:id="@+id/work_done_dialog_calender"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/table_data_padding"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <net.optimusbs.sohelcon.CustomView.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:textColor="@color/black"
+                    android:id="@+id/work_done"
+                    android:text="@string/volume_of_workdone"/>
+
+                <net.optimusbs.sohelcon.CustomView.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    android:layout_weight="2"
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:inputType="numberDecimal"
+                    android:textSize="@dimen/my_text_size"
+                    android:background="@drawable/my_edit_text_back"
+                    android:id="@+id/dialog_work_done"/>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                >
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/work_done_dialog_cancel"
+                    android:background="@drawable/image_button_back"
+                    android:src="@drawable/cancel"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:background="@drawable/image_button_back"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/work_done_dialog_ok"
+                    android:src="@drawable/ok"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
