@@ -269,8 +269,6 @@ public class HeadwiseExpenditureFragment extends Fragment implements FinanceAdap
         pieChart.setHoleRadius(58f);
         pieChart.setTransparentCircleRadius(61f);
 
-        pieChart.getLegend().setEnabled(false);
-
         pieChart.setDrawCenterText(true);
         pieChart.getLegend().setEnabled(false);
 

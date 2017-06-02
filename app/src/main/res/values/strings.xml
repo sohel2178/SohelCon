@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Constrution Manager</string>
+    <string name="app_name">Construction Manager</string>
     <string name="shared_file_provider">com.nguyenhoanglam.imagepicker.provider.sohelcon</string>
 
     <string name="drawer_open">Open</string>

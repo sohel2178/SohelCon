@@ -108,9 +108,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void getResposefromVolley(String response) {
+        Log.d("RESPONSE",response);
+
         LoginResponse loginResponse = gson.fromJson(response,LoginResponse.class);
 
-        Log.d("RESPONSE",response);
+       // Log.d("RESPONSE",response);
 
 
 

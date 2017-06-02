@@ -60,8 +60,9 @@ public class ParticularProjectFragment extends Fragment implements View.OnClickL
     private RelativeLayout tvActivity,tvFinance,tvStore;
 
     private RelativeLayout rlContainer;
+    //TextView tvCompanyName,tvCompanyAddress;
 
-    private TextView tvCompanyName,tvCompanyAddress,tvProjectName,tvProjectLocation,tvCoordinatorName,tvManagerName,
+    private TextView tvProjectName,tvProjectLocation,tvCoordinatorName,tvManagerName,
                 tvProjectValue,tvProjectDebit,tvProjectCredit,tvPhtsicalProgress,tvFinancialProgress,
                 coordinator,manager,physical_progress,financial_progress,value,debit,credit;
     CircleImageView ivCoordinatorImage,ivManagerImage;
@@ -213,8 +214,6 @@ public class ParticularProjectFragment extends Fragment implements View.OnClickL
         tvStore= (RelativeLayout) view.findViewById(R.id.store_container);
 
         // Project Content Initialize
-        tvCompanyName= (TextView) view.findViewById(R.id.dashboard_companyName);
-        tvCompanyAddress= (TextView) view.findViewById(R.id.dashboard_companyAddress);
         tvProjectName= (TextView) view.findViewById(R.id.dashboard_project_name);
         tvProjectLocation= (TextView) view.findViewById(R.id.dashboard_project_location);
         tvCoordinatorName= (TextView) view.findViewById(R.id.dashboard_coordinator_name);
@@ -274,16 +273,16 @@ public class ParticularProjectFragment extends Fragment implements View.OnClickL
         FontUtils.setFont(Constant.T_SEVEN_SEGMENT,tvProjectDebit);
         FontUtils.setFont(Constant.T_SEVEN_SEGMENT,tvProjectCredit);
 
-        tvCompanyName.setText(companyName);
-        tvCompanyAddress.setText(companyAddress);
+        //tvCompanyName.setText(companyName);
+        //tvCompanyAddress.setText(companyAddress);
         tvProjectName.setText(projectName);
         tvProjectLocation.setText(projectLocation);
         tvCoordinatorName.setText(coordinatorName);
         tvManagerName.setText(managerName);
 
         // Set Font
-        FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvCompanyName);
-        FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvCompanyAddress);
+        //FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvCompanyName);
+       // FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvCompanyAddress);
         FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvProjectName);
         FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvProjectLocation);
         FontUtils.setFont(Constant.T_RAILWAY_REGULAR,tvCoordinatorName);

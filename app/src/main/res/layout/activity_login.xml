@@ -12,25 +12,35 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-        <RelativeLayout
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/register_main_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/table_row_padding"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle_back_white"
+            android:src="@drawable/new_screen_2"/>
+            <!--&lt;!&ndash;android:src="@drawable/new_screen_2"&ndash;&gt;/>-->
+
+        <!--<RelativeLayout
             android:layout_width="@dimen/main_icon_dim"
             android:layout_height="@dimen/main_icon_dim"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/circle_back"
+            android:background="#ffffff"
             android:padding="@dimen/default_padding"
             android:layout_marginTop="@dimen/table_row_padding"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:id="@+id/register_main_icon"
             >
-            <ImageView
+            <android.support.v4.widget.CircleImageView
                 android:layout_width="@dimen/logo_image_dim"
                 android:layout_height="@dimen/logo_image_dim"
                 android:layout_marginTop="@dimen/table_row_padding"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/house_icon_3"/>
+                android:src="@drawable/new_screen_2"/>
 
-        </RelativeLayout>
+        </RelativeLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -111,6 +121,7 @@
                 android:id="@+id/button_register"
                 android:layout_height="@dimen/button_height"
                 android:textAllCaps="false"
+                android:visibility="visible"
                 />
 
         </LinearLayout>
