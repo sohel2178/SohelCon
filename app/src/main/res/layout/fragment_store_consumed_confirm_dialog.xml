@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="net.optimusbs.sohelcon.DialogFragments.StoreConsumedConfirmDialog">
+    tools:context="com.cpsdbd.sohelcon.DialogFragments.StoreConsumedConfirmDialog">
 
     <TextView
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -45,7 +45,7 @@
                     android:textColor="@color/black"
                     android:text="@string/date"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
@@ -61,7 +61,7 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -70,7 +70,7 @@
                     android:textColor="@color/black"
                     android:text="@string/particular"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -86,7 +86,7 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -95,7 +95,7 @@
                     android:textColor="@color/black"
                     android:text="@string/issue_to"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -111,7 +111,7 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -120,7 +120,7 @@
                     android:textColor="@color/black"
                     android:text="@string/where_used"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -138,7 +138,7 @@
                 android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -147,7 +147,7 @@
                     android:textColor="@color/black"
                     android:text="@string/quantity_2"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"

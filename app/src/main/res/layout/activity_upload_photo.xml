@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.UploadPhotoActivity">
+    tools:context="com.cpsdbd.sohelcon.UploadPhotoActivity">
 
     <ImageView
         android:layout_marginTop="10dp"

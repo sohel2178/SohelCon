@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.optimusbs.sohelcon.DetailDialogFragmentLongPress.ActivityDetailDialog">
+    tools:context="com.cpsdbd.sohelcon.DetailDialogFragmentLongPress.ActivityDetailDialog">
 
     <TextView
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -42,7 +42,7 @@
                     android:id="@+id/activity_name"
                     android:text="@string/activity_name"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -68,7 +68,7 @@
                     android:textColor="@color/black"
                     android:text="@string/start_date"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -94,7 +94,7 @@
                     android:textColor="@color/black"
                     android:text="@string/finished_date"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -120,7 +120,7 @@
                     android:textColor="@color/black"
                     android:text="@string/volume_of_works"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -146,7 +146,7 @@
                     android:textColor="@color/black"
                     android:text="@string/unit_rate"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -172,7 +172,7 @@
                     android:textColor="@color/black"
                     android:text="@string/volume_of_workdone"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -189,7 +189,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -198,7 +198,7 @@
                     android:textColor="@color/black"
                     android:text="@string/last_modified"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:paddingStart="20dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

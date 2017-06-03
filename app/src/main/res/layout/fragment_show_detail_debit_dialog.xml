@@ -5,7 +5,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.DetailDialogFragmentLongPress.ShowDetailDebitDialog">
+    tools:context="com.cpsdbd.sohelcon.DetailDialogFragmentLongPress.ShowDetailDebitDialog">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

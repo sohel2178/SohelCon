@@ -10,14 +10,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <net.optimusbs.sohelcon.CustomView.MyTextView
+        <com.cpsdbd.sohelcon.CustomView.MyTextView
             android:padding="@dimen/default_margin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
             android:id="@+id/single_store_rec_con_date"/>
 
-        <net.optimusbs.sohelcon.CustomView.MyTextView
+        <com.cpsdbd.sohelcon.CustomView.MyTextView
             android:padding="@dimen/default_margin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="2">
 
-            <net.optimusbs.sohelcon.CustomView.MyTextView
+            <com.cpsdbd.sohelcon.CustomView.MyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/default_margin"

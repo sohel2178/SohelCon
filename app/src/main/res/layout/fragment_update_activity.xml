@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Activity.UpdateActivityFragment">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Activity.UpdateActivityFragment">
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
                 android:layout_marginBottom="@dimen/default_margin"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:layout_weight="1"
@@ -43,7 +43,7 @@
                     android:layout_marginRight="@dimen/default_margin"
                     android:paddingLeft="@dimen/default_padding_left"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:paddingLeft="@dimen/default_padding_left"
@@ -61,7 +61,7 @@
                 android:layout_marginBottom="@dimen/default_margin"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:layout_weight="1"
@@ -72,7 +72,7 @@
                     android:layout_marginRight="@dimen/default_margin"
                     android:paddingLeft="@dimen/default_padding_left"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:paddingLeft="@dimen/default_padding_left"
@@ -90,7 +90,7 @@
                 android:layout_marginBottom="@dimen/default_margin"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:layout_weight="1"
@@ -101,7 +101,7 @@
                     android:layout_marginRight="@dimen/default_margin"
                     android:paddingLeft="@dimen/default_padding_left"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:paddingLeft="@dimen/default_padding_left"
@@ -118,7 +118,7 @@
                 android:layout_marginBottom="@dimen/default_margin"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:layout_weight="1"
@@ -129,7 +129,7 @@
                     android:layout_marginRight="@dimen/default_margin"
                     android:paddingLeft="@dimen/default_padding_left"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:paddingLeft="@dimen/default_padding_left"
@@ -146,7 +146,7 @@
                 android:layout_marginBottom="@dimen/default_margin"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:layout_weight="1"
@@ -157,7 +157,7 @@
                     android:layout_marginRight="@dimen/default_margin"
                     android:paddingLeft="@dimen/default_padding_left"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="@dimen/field_height_small"
                     android:paddingLeft="@dimen/default_padding_left"

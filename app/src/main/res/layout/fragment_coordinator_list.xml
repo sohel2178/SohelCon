@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_register_image"
     android:padding="@dimen/default_margin"
-    tools:context="net.optimusbs.sohelcon.Navigation.CoordinatorListFragment">
+    tools:context="com.cpsdbd.sohelcon.Navigation.CoordinatorListFragment">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"

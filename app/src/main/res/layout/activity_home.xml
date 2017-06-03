@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.HomeActivity">
+    tools:context="com.cpsdbd.sohelcon.HomeActivity">
 
     <include
         layout="@layout/app_bar" />
@@ -26,7 +26,7 @@
 
         <fragment
             android:id="@+id/fragment_navigation_drawer"
-            android:name="net.optimusbs.sohelcon.NavigationDrawer"
+            android:name="com.cpsdbd.sohelcon.NavigationDrawer"
             android:layout_width="@dimen/nav_drawer_width"
             android:layout_height="match_parent"
             android:layout_gravity="start"

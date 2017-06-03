@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundimage_login"
-    tools:context="net.optimusbs.sohelcon.LoginActivity">
+    tools:context="com.cpsdbd.sohelcon.LoginActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:layout_marginTop="@dimen/table_row_padding"
             android:layout_centerHorizontal="true"
             android:background="@drawable/circle_back_white"
-            android:src="@drawable/new_screen_2"/>
+            android:src="@drawable/ffff"/>
             <!--&lt;!&ndash;android:src="@drawable/new_screen_2"&ndash;&gt;/>-->
 
         <!--<RelativeLayout

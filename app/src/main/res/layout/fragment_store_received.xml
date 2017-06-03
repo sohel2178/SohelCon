@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_register_image"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.StoreReceived">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Store.StoreReceived">
 
     <TextView
         android:id="@+id/title"
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:id="@+id/store_received_date"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -39,7 +39,7 @@
                 android:inputType="date" />
 
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:id="@+id/store_received_particular"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -48,7 +48,7 @@
                 android:hint="@string/particular"
                 android:inputType="text" />
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:id="@+id/store_received_received_from"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -57,7 +57,7 @@
                 android:hint="@string/received_from"
                 android:inputType="text" />
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:id="@+id/store_received_challan_no"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -66,7 +66,7 @@
                 android:hint="@string/challan_no"
                 android:inputType="text" />
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:id="@+id/store_received_mrr_no"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -75,7 +75,7 @@
                 android:hint="@string/mrr_no"
                 android:inputType="text" />
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:id="@+id/store_received_quantity"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"

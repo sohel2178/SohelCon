@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_register_image"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.StoreConsumed">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Store.StoreConsumed">
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:orientation="vertical"
             >
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -39,7 +39,7 @@
                 android:id="@+id/store_consumed_date"/>
 
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -48,7 +48,7 @@
                 android:inputType="text"
                 android:id="@+id/store_consumed_particular"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -57,7 +57,7 @@
                 android:inputType="text"
                 android:id="@+id/store_consumed_issue_to"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -66,7 +66,7 @@
                 android:inputType="text"
                 android:id="@+id/store_consumed_where_used"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"

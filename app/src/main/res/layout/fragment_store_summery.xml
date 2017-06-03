@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Store.StoreSummery">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Store.StoreSummery">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

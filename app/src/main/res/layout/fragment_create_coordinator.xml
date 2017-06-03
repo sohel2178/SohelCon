@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_register_image"
     android:padding="@dimen/default_margin"
-    tools:context="net.optimusbs.sohelcon.Navigation.CreateCoordinatorFragment">
+    tools:context="com.cpsdbd.sohelcon.Navigation.CreateCoordinatorFragment">
 
     <RelativeLayout
         android:layout_width="@dimen/main_icon_dim"

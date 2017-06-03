@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.DailyTransaction">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Finance.DailyTransaction">
 
 
     <RelativeLayout
@@ -27,7 +27,7 @@
                 android:gravity="center"
                 android:id="@+id/title"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyTextView
+            <com.cpsdbd.sohelcon.CustomView.MyTextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:textSize="18sp"

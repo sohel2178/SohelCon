@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.optimusbs.sohelcon.DetailDialogFragmentLongPress.ShowDetailCreditDialog">
+    tools:context="com.cpsdbd.sohelcon.DetailDialogFragmentLongPress.ShowDetailCreditDialog">
 
     <TextView
         android:layout_alignParentTop="true"
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -42,7 +42,7 @@
                     android:id="@+id/date"
                     android:text="@string/date"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -68,7 +68,7 @@
                     android:id="@+id/description"
                     android:text="@string/description"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -93,7 +93,7 @@
                     android:id="@+id/head"
                     android:text="@string/head_2"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -118,7 +118,7 @@
                     android:id="@+id/amount"
                     android:text="@string/amount"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="start"

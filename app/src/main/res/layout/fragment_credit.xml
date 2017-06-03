@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_register_image"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Finance.CreditFragment">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Finance.CreditFragment">
 
 
     <TextView
@@ -31,7 +31,7 @@
             android:orientation="vertical"
             >
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
@@ -41,7 +41,7 @@
                 android:focusable="false"
                 android:id="@+id/credit_trasaction_date"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
@@ -50,7 +50,7 @@
                 android:inputType="text"
                 android:id="@+id/credit_description"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
@@ -59,7 +59,7 @@
                 android:inputType="text"
                 android:id="@+id/credit_head"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"

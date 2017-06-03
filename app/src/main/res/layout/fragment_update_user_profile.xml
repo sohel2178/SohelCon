@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_register_image"
-    tools:context="net.optimusbs.sohelcon.Navigation.UpdateUserProfile">
+    tools:context="com.cpsdbd.sohelcon.Navigation.UpdateUserProfile">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_gravity="start"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edit_text_height"
@@ -155,7 +155,7 @@
                     android:layout_marginBottom="@dimen/default_margin"
                     />
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_gravity="start"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edit_text_height"
@@ -170,7 +170,7 @@
                     android:layout_marginBottom="@dimen/default_margin"
                     />
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_gravity="start"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edit_text_height"
@@ -184,7 +184,7 @@
                     android:layout_marginBottom="@dimen/default_margin"
                     />
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_gravity="start"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edit_text_height"

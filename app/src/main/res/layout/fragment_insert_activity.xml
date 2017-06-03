@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background_register_image"
-    tools:context="net.optimusbs.sohelcon.Fragments.MainFragment.Activity.InsertActivityFragment">
+    tools:context="com.cpsdbd.sohelcon.Fragments.MainFragment.Activity.InsertActivityFragment">
 
 
 
@@ -30,7 +30,7 @@
             android:orientation="vertical"
             >
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/field_height"
@@ -40,7 +40,7 @@
                 android:inputType="date"
                 android:id="@+id/insert_activity_start_date"/>
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/field_height"
@@ -51,7 +51,7 @@
                 android:id="@+id/insert_activity_finished_date"/>
 
 
-            <net.optimusbs.sohelcon.CustomView.MyAutoCompleteTextView
+            <com.cpsdbd.sohelcon.CustomView.MyAutoCompleteTextView
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/field_height"
@@ -61,7 +61,7 @@
                 android:id="@+id/insert_activity_activity_name"/>
 
 
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/field_height"
@@ -69,7 +69,7 @@
                 android:hint="@string/volume_of_works"
                 android:inputType="numberDecimal"
                 android:id="@+id/insert_activity_volume_of_works"/>
-            <net.optimusbs.sohelcon.CustomView.MyEditText
+            <com.cpsdbd.sohelcon.CustomView.MyEditText
                 android:layout_marginBottom="@dimen/default_margin"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/field_height"

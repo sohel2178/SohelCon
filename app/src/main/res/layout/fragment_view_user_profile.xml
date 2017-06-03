@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_register_image"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.Navigation.ViewUserProfile">
+    tools:context="com.cpsdbd.sohelcon.Navigation.ViewUserProfile">
 
     <RelativeLayout
         android:layout_width="match_parent"

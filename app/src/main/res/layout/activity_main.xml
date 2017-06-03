@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/imat"
-    tools:context="net.optimusbs.sohelcon.MainActivity">
+    tools:context="com.cpsdbd.sohelcon.MainActivity">
 
 
 </RelativeLayout>

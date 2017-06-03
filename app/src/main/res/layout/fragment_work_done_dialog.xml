@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="net.optimusbs.sohelcon.DialogFragments.WorkDoneDialogFragment">
+    tools:context="com.cpsdbd.sohelcon.DialogFragments.WorkDoneDialogFragment">
 
     <TextView
         android:layout_width="match_parent"
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -47,7 +47,7 @@
                     android:layout_marginStart="@dimen/default_margin"
                     android:text="@string/date"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <net.optimusbs.sohelcon.CustomView.MyTextView
+                <com.cpsdbd.sohelcon.CustomView.MyTextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -86,7 +86,7 @@
                     android:id="@+id/work_done"
                     android:text="@string/volume_of_workdone"/>
 
-                <net.optimusbs.sohelcon.CustomView.MyEditText
+                <com.cpsdbd.sohelcon.CustomView.MyEditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
